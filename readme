@@ -1,0 +1,16 @@
+vscodeno
+|---build                 //编译后的js文件目录
+|---src                   //ts文件目录
+|---static                //客户端静态文件
+|  |---scripts
+|  |     |---main.js
+|  |----styles
+|  |     |---style.css
+|  |----assets
+|---views                 //html文件目录
+|    |---index.html
+|---package.json
+|---tsconfig.json
+
+from: https://segmentfault.com/a/1190000007574276
+使用Typescript开发node.js项目——简单的环境配置

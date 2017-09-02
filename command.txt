@@ -1,0 +1,10 @@
+0.命令安装
+    0.1 node：安装nodejs
+    0.2 tsc：npm install -g typescript（一般vscode自带不需单独安装）
+
+1.新建一个叫vscodeno的文件夹，并用vscode打开
+2.创建tsconfig.json文件：tsc --init（watch，sourcemap）
+3.npm init
+4.F5运行生成launch.json，编辑入口文件
+5.command+shift+P输入task设置默认任务（生成task.json）
+6.安装nodejs的d.ts文件：npm install @types/node --save-dev

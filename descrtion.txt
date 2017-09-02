@@ -1,0 +1,10 @@
+typings----->查找第三方模块的typescript定义，*.d.ts文件
+npm---->包管理器，如安装tsc(typescript compile)、typings等模块
+
+
+几个json文件的作用：
+launch.json: 启动配置,created by vscode
+package.json: npm包项目配置，如运行入口
+task.json: created by vscode, 配置vscode里的默认任务，例如实现监测文件变化实行自动编译
+tsconfig.json: typescript编译配置(tsc)
+typings.json: d.ts文件配置
