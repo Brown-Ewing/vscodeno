@@ -4,7 +4,7 @@ import path = require("path");
 import fs   = require("fs");
 
 http.createServer(function (req: any, res:any) {
-var pathname = __dirname.replace("build", "views") + url.parse(req.url).pathname;
+var pathname = __dirname.replace("build", "client") + url.parse(req.url).pathname;
 if (pathname.charAt(pathname.length-1)=="/"){
     pathname+="index.html";
 }
